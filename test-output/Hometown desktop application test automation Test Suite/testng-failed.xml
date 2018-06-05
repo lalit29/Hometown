@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hometown desktop application test automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Hometown Test Cases(failed)">
+    <classes>
+      <class name="com.hometown.qa.testcases.HomePageTest">
+        <methods>
+          <include name="htLogoImageTest"/>
+          <include name="signUpForAlreadyRegisteredEmailTest"/>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.hometown.qa.testcases.HomePageTest -->
+      <class name="com.hometown.qa.testcases.LivingRoomFurniturePageTest">
+        <methods>
+          <include name="verifySortByLowToHigh"/>
+          <include name="verifyURL"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.hometown.qa.testcases.LivingRoomFurniturePageTest -->
+      <class name="com.hometown.qa.testcases.CheckoutUsingICICINetBankingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="checkOut"/>
+        </methods>
+      </class> <!-- com.hometown.qa.testcases.CheckoutUsingICICINetBankingTest -->
+      <class name="com.hometown.qa.testcases.ForgotPasswordPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hometown.qa.testcases.ForgotPasswordPageTest -->
+    </classes>
+  </test> <!-- Hometown Test Cases(failed) -->
+</suite> <!-- Failed suite [Hometown desktop application test automation Test Suite] -->

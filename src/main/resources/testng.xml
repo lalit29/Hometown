@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Hometown desktop application test automation Test Suite" >
+
+     <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    
+  <test name="Hometown Test Cases" >
+    <classes>
+      
+        <class name="com.hometown.qa.testcases.CheckoutUsingICICINetBankingTest"></class>
+        <class name="com.hometown.qa.testcases.HomePageTest"></class>
+        <class name="com.hometown.qa.testcases.ForgotPasswordPageTest"></class>
+        <class name="com.hometown.qa.testcases.LivingRoomFurniturePageTest"></class>
+       
+    </classes>
+  </test>
+</suite>
